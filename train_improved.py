@@ -104,7 +104,7 @@ def main():
     p.add_argument("--data_dir", type=str, default="data")
     p.add_argument("--kaggle_csv", action="store_true", help="Use Kaggle Kannada-MNIST CSV files")
     p.add_argument("--out_dir", type=str, default="checkpoints")
-    p.add_argument("--epochs", type=int, default=30)
+    p.add_argument("--epochs", type=int, default=15)
     p.add_argument("--batch_size", type=int, default=32)
     p.add_argument("--lr", type=float, default=1e-3)
     p.add_argument("--image_size", type=int, default=64)
